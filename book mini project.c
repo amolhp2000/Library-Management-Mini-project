@@ -5,6 +5,7 @@ typedef struct book
 	char author[20];
 }book;
 
+void insertbookdata(book*ptr);
 int searchbook(book*);
 void showbooks(book*,int,int);
 void main()
